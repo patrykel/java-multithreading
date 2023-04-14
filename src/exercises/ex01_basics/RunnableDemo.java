@@ -1,8 +1,10 @@
+package exercises.ex01_basics;
+
 public class RunnableDemo implements Runnable {
   private Thread t;
   private final String threadName;
 
-  RunnableDemo( String name) {
+  public RunnableDemo(String name) {
     threadName = name;
     System.out.println("Creating " +  threadName );
   }
